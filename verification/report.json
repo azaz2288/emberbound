@@ -1,0 +1,23 @@
+{
+  "verifiedAt": "2026-10-01T23:19:21.470Z",
+  "node": "v24.12.0",
+  "unitTests": 158,
+  "unitFailures": 0,
+  "regressionRuns": 54,
+  "balanceRuns": 270,
+  "performance": {
+    "note": "Pure rules, full heuristic runs on this machine; not rendering frame rate.",
+    "runs": 120,
+    "p50ms": 2.74,
+    "p95ms": 5.596,
+    "maxms": 17.751
+  },
+  "offlineBuild": {
+    "bytes": 171278,
+    "sha256": "18d1251e3d70533f94b472a17bc8396d6bd3e1dfe4f7f9bc0fdef5f4a49a9492"
+  },
+  "limits": [
+    "Human enjoyment and long-term balance not established.",
+    "Direct file:// browser QA blocked by tool URL policy; compiled bundle should be tested as a standard localhost page."
+  ]
+}

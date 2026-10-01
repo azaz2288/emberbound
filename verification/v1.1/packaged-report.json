@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-01T21:44:43.253Z",
+  "electron": "38.8.6",
+  "chromium": "140.0.7339.249",
+  "packaged": true,
+  "checks": [
+    "offline custom protocol and no Node in renderer",
+    "new run created through UI",
+    "opening draw flies from pile with locked input",
+    "route enters combat",
+    "all visible images load",
+    "action locked while VFX active",
+    "double-click and space during animation do not double-resolve",
+    "one attack damage applied",
+    "enemy turn unlocks normally",
+    "new hand and next turn",
+    "end turn animates all ten discarded cards",
+    "empty draw pile visibly reshuffles",
+    "next turn draws five flying cards",
+    "reshuffle animations preserve rules and pile totals",
+    "exhaust card visibly flies to exhaust pile",
+    "exhaust card never enters discard",
+    "upgrade preview does not mutate save",
+    "both card faces and changed numbers visible",
+    "cancel comparison leaves save identical",
+    "confirmation upgrades exactly one and leaves rest",
+    "desktop reload preserves upgraded run",
+    "deck inspection has upgrade comparison",
+    "inspection back returns to deck",
+    "live audio context running and voices scheduled",
+    "hit produces finite non-silent non-clipping audio",
+    "spell produces finite non-silent non-clipping audio",
+    "block produces finite non-silent non-clipping audio",
+    "card produces finite non-silent non-clipping audio",
+    "heal produces finite non-silent non-clipping audio",
+    "win produces finite non-silent non-clipping audio",
+    "lose produces finite non-silent non-clipping audio",
+    "combo produces finite non-silent non-clipping audio",
+    "click produces finite non-silent non-clipping audio",
+    "music produces finite non-silent non-clipping audio",
+    "all 56 available without collecting cards",
+    "catalog class filter",
+    "search by effects maintains input focus",
+    "inspection returns to catalog",
+    "1280x720 combat fits with illustrations",
+    "catalog upgrade toggle shows all playable upgraded cards",
+    "reduced-motion mode resolves without stuck input",
+    "no renderer errors"
+  ],
+  "audio": [
+    {
+      "kind": "hit",
+      "peak": 0.35378238558769226,
+      "rms": 0.01879811845901811,
+      "rate": 22050
+    },
+    {
+      "kind": "spell",
+      "peak": 0.12998579442501068,
+      "rms": 0.010297021173683264,
+      "rate": 22050
+    },
+    {
+      "kind": "block",
+      "peak": 0.26657795906066895,
+      "rms": 0.013011429538533252,
+      "rate": 22050
+    },
+    {
+      "kind": "card",
+      "peak": 0.1887713223695755,
+      "rms": 0.01027333608490528,
+      "rate": 22050
+    },
+    {
+      "kind": "heal",
+      "peak": 0.12660694122314453,
+      "rms": 0.015536995575371219,
+      "rate": 22050
+    },
+    {
+      "kind": "win",
+      "peak": 0.15707160532474518,
+      "rms": 0.029278058613044045,
+      "rate": 22050
+    },
+    {
+      "kind": "lose",
+      "peak": 0.13745303452014923,
+      "rms": 0.019949245850784083,
+      "rate": 22050
+    },
+    {
+      "kind": "combo",
+      "peak": 0.12660695612430573,
+      "rms": 0.015536995573088255,
+      "rate": 22050
+    },
+    {
+      "kind": "click",
+      "peak": 0.096586674451828,
+      "rms": 0.003837316805678398,
+      "rate": 22050
+    },
+    {
+      "kind": "music",
+      "peak": 0.0797465592622757,
+      "rms": 0.01023806393267455,
+      "rate": 22050
+    }
+  ],
+  "errors": [],
+  "notes": [
+    "Opt-in isolated-profile integration harness; fixture states are developer tests, not claimed as organic playthrough.",
+    "PCM output and running context verified; human listening not claimed."
+  ]
+}

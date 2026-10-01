@@ -1,0 +1,96 @@
+{
+  "note": "Heuristic automated policy, not a human playtest or final balance claim.",
+  "totalRuns": 270,
+  "report": [
+    {
+      "difficulty": "story",
+      "hero": "knight",
+      "runs": 30,
+      "wins": 28,
+      "meanAct": 3,
+      "battles": 297,
+      "turns": 1208,
+      "steps": 6841
+    },
+    {
+      "difficulty": "story",
+      "hero": "mage",
+      "runs": 30,
+      "wins": 27,
+      "meanAct": 2.97,
+      "battles": 285,
+      "turns": 758,
+      "steps": 6219
+    },
+    {
+      "difficulty": "story",
+      "hero": "rogue",
+      "runs": 30,
+      "wins": 23,
+      "meanAct": 3,
+      "battles": 288,
+      "turns": 929,
+      "steps": 6299
+    },
+    {
+      "difficulty": "normal",
+      "hero": "knight",
+      "runs": 30,
+      "wins": 10,
+      "meanAct": 2.77,
+      "battles": 225,
+      "turns": 1100,
+      "steps": 5901
+    },
+    {
+      "difficulty": "normal",
+      "hero": "mage",
+      "runs": 30,
+      "wins": 21,
+      "meanAct": 2.83,
+      "battles": 252,
+      "turns": 890,
+      "steps": 6585
+    },
+    {
+      "difficulty": "normal",
+      "hero": "rogue",
+      "runs": 30,
+      "wins": 13,
+      "meanAct": 2.63,
+      "battles": 219,
+      "turns": 815,
+      "steps": 5351
+    },
+    {
+      "difficulty": "hard",
+      "hero": "knight",
+      "runs": 30,
+      "wins": 0,
+      "meanAct": 1.73,
+      "battles": 123,
+      "turns": 710,
+      "steps": 3608
+    },
+    {
+      "difficulty": "hard",
+      "hero": "mage",
+      "runs": 30,
+      "wins": 6,
+      "meanAct": 2.3,
+      "battles": 180,
+      "turns": 733,
+      "steps": 5046
+    },
+    {
+      "difficulty": "hard",
+      "hero": "rogue",
+      "runs": 30,
+      "wins": 1,
+      "meanAct": 2.13,
+      "battles": 151,
+      "turns": 686,
+      "steps": 4272
+    }
+  ]
+}

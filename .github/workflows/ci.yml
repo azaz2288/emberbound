@@ -1,0 +1,47 @@
+name: Verify game
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  rules:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm run build
+      - run: npm test
+      - run: node tools/verify.mjs
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: npm test
+      - run: npm run test:desktop
+      - run: npm run build:desktop
+      - name: Archive Windows game
+        shell: pwsh
+        run: Compress-Archive -LiteralPath releases/Emberbound-win32-x64 -DestinationPath releases/Emberbound-Windows-x64.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Emberbound-Windows-x64
+          path: releases/Emberbound-Windows-x64.zip
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: desktop-verification
+          path: verification/v1.1/

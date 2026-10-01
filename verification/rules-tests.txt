@@ -1,0 +1,958 @@
+TAP version 13
+# Subtest: offline build is reproducible and contains all original runtime modules
+ok 1 - offline build is reproducible and contains all original runtime modules
+  ---
+  duration_ms: 89.5178
+  type: 'test'
+  ...
+# Subtest: same seed generates identical world and RNG
+ok 2 - same seed generates identical world and RNG
+  ---
+  duration_ms: 4.2506
+  type: 'test'
+  ...
+# Subtest: different seeds, guaranteed branch connectivity and boss
+ok 3 - different seeds, guaranteed branch connectivity and boss
+  ---
+  duration_ms: 7.69
+  type: 'test'
+  ...
+# Subtest: reject invalid constructors and inaccessible map choices
+ok 4 - reject invalid constructors and inaccessible map choices
+  ---
+  duration_ms: 0.6903
+  type: 'test'
+  ...
+# Subtest: basic attacks, armor, block do not alter permanent card definitions
+ok 5 - basic attacks, armor, block do not alter permanent card definitions
+  ---
+  duration_ms: 1.1141
+  type: 'test'
+  ...
+# Subtest: strength, weak and vulnerable round down after multipliers
+ok 6 - strength, weak and vulnerable round down after multipliers
+  ---
+  duration_ms: 0.2418
+  type: 'test'
+  ...
+# Subtest: shield bonus once per turn, reset next turn
+ok 7 - shield bonus once per turn, reset next turn
+  ---
+  duration_ms: 0.2695
+  type: 'test'
+  ...
+# Subtest: mage combo only triggers on exactly third class spell, never on neutral cards
+ok 8 - mage combo only triggers on exactly third class spell, never on neutral cards
+  ---
+  duration_ms: 0.1725
+  type: 'test'
+  ...
+# Subtest: rogue third attack poisons all exactly once, skills do not retrigger
+ok 9 - rogue third attack poisons all exactly once, skills do not retrigger
+  ---
+  duration_ms: 0.1672
+  type: 'test'
+  ...
+# Subtest: poison and burn bypass armor and decay
+ok 10 - poison and burn bypass armor and decay
+  ---
+  duration_ms: 0.3537
+  type: 'test'
+  ...
+# Subtest: poison prevents dead enemy from acting
+ok 11 - poison prevents dead enemy from acting
+  ---
+  duration_ms: 0.2901
+  type: 'test'
+  ...
+# Subtest: multihit thorns reflect each attack, stop if attacker dies
+ok 12 - multihit thorns reflect each attack, stop if attacker dies
+  ---
+  duration_ms: 0.1931
+  type: 'test'
+  ...
+# Subtest: hand maximum is ten and shuffle recycles only discarded cards
+ok 13 - hand maximum is ten and shuffle recycles only discarded cards
+  ---
+  duration_ms: 0.1318
+  type: 'test'
+  ...
+# Subtest: exhaust and power removed from current battle, remain in permanent deck
+ok 14 - exhaust and power removed from current battle, remain in permanent deck
+  ---
+  duration_ms: 0.1456
+  type: 'test'
+  ...
+# Subtest: invalid actions are rejected before mutation
+ok 15 - invalid actions are rejected before mutation
+  ---
+  duration_ms: 0.4767
+  type: 'test'
+  ...
+# Subtest: bad target rejected, automatic target works for a single live enemy
+ok 16 - bad target rejected, automatic target works for a single live enemy
+  ---
+  duration_ms: 0.2255
+  type: 'test'
+  ...
+# Subtest: curse unplayable, original upgrades descriptions explicit
+ok 17 - curse unplayable, original upgrades descriptions explicit
+  ---
+  duration_ms: 0.6336
+  type: 'test'
+  ...
+# Subtest: death is terminal and healing cannot resume a dead combat
+ok 18 - death is terminal and healing cannot resume a dead combat
+  ---
+  duration_ms: 0.3326
+  type: 'test'
+  ...
+# Subtest: victory rewards awarded once, choosing one blocks others
+ok 19 - victory rewards awarded once, choosing one blocks others
+  ---
+  duration_ms: 0.7372
+  type: 'test'
+  ...
+# Subtest: boss rewards progress acts and third boss yields real victory
+ok 20 - boss rewards progress acts and third boss yields real victory
+  ---
+  duration_ms: 0.635
+  type: 'test'
+  ...
+# Subtest: healing clamped, potion cap and use once
+ok 21 - healing clamped, potion cap and use once
+  ---
+  duration_ms: 0.3584
+  type: 'test'
+  ...
+# Subtest: all potions effects and invalid index
+ok 22 - all potions effects and invalid index
+  ---
+  duration_ms: 0.5639
+  type: 'test'
+  ...
+# Subtest: relic hooks and heart immediate permanent increase
+ok 23 - relic hooks and heart immediate permanent increase
+  ---
+  duration_ms: 0.2528
+  type: 'test'
+  ...
+# Subtest: rest choice permanent upgrade and cancel does not consume rest
+ok 24 - rest choice permanent upgrade and cancel does not consume rest
+  ---
+  duration_ms: 0.2616
+  type: 'test'
+  ...
+# Subtest: events available and resolved gates, one-card remove rejected
+ok 25 - events available and resolved gates, one-card remove rejected
+  ---
+  duration_ms: 0.6561
+  type: 'test'
+  ...
+# Subtest: event resource affordability and sacrifice cannot kill hero
+ok 26 - event resource affordability and sacrifice cannot kill hero
+  ---
+  duration_ms: 0.1502
+  type: 'test'
+  ...
+# Subtest: shop purchases, sold/insufficient caps and removal cancellation
+ok 27 - shop purchases, sold/insufficient caps and removal cancellation
+  ---
+  duration_ms: 0.5051
+  type: 'test'
+  ...
+# Subtest: coin relic discount and repeat removal increase
+ok 28 - coin relic discount and repeat removal increase
+  ---
+  duration_ms: 0.1555
+  type: 'test'
+  ...
+# Subtest: save restore preserves all piles and future deterministic actions
+ok 29 - save restore preserves all piles and future deterministic actions
+  ---
+  duration_ms: 7.4696
+  type: 'test'
+  ...
+# Subtest: save corruption rejection table
+ok 30 - save corruption rejection table
+  ---
+  duration_ms: 2.4312
+  type: 'test'
+  ...
+# Subtest: card cut: base and upgraded effects execute with valid invariants
+ok 31 - card cut: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.2616
+  type: 'test'
+  ...
+# Subtest: card guard: base and upgraded effects execute with valid invariants
+ok 32 - card guard: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.3424
+  type: 'test'
+  ...
+# Subtest: card bash: base and upgraded effects execute with valid invariants
+ok 33 - card bash: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1432
+  type: 'test'
+  ...
+# Subtest: card riposte: base and upgraded effects execute with valid invariants
+ok 34 - card riposte: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.3661
+  type: 'test'
+  ...
+# Subtest: card cleave: base and upgraded effects execute with valid invariants
+ok 35 - card cleave: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1417
+  type: 'test'
+  ...
+# Subtest: card fortify: base and upgraded effects execute with valid invariants
+ok 36 - card fortify: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1727
+  type: 'test'
+  ...
+# Subtest: card rage: base and upgraded effects execute with valid invariants
+ok 37 - card rage: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1116
+  type: 'test'
+  ...
+# Subtest: card charge: base and upgraded effects execute with valid invariants
+ok 38 - card charge: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1797
+  type: 'test'
+  ...
+# Subtest: card thorn: base and upgraded effects execute with valid invariants
+ok 39 - card thorn: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1022
+  type: 'test'
+  ...
+# Subtest: card crush: base and upgraded effects execute with valid invariants
+ok 40 - card crush: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.3248
+  type: 'test'
+  ...
+# Subtest: card rally: base and upgraded effects execute with valid invariants
+ok 41 - card rally: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1853
+  type: 'test'
+  ...
+# Subtest: card bastion: base and upgraded effects execute with valid invariants
+ok 42 - card bastion: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1756
+  type: 'test'
+  ...
+# Subtest: card blood: base and upgraded effects execute with valid invariants
+ok 43 - card blood: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1437
+  type: 'test'
+  ...
+# Subtest: card double: base and upgraded effects execute with valid invariants
+ok 44 - card double: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1422
+  type: 'test'
+  ...
+# Subtest: card execute: base and upgraded effects execute with valid invariants
+ok 45 - card execute: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1038
+  type: 'test'
+  ...
+# Subtest: card defiance: base and upgraded effects execute with valid invariants
+ok 46 - card defiance: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1112
+  type: 'test'
+  ...
+# Subtest: card spark: base and upgraded effects execute with valid invariants
+ok 47 - card spark: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1027
+  type: 'test'
+  ...
+# Subtest: card ward: base and upgraded effects execute with valid invariants
+ok 48 - card ward: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.0943
+  type: 'test'
+  ...
+# Subtest: card ignite: base and upgraded effects execute with valid invariants
+ok 49 - card ignite: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.4264
+  type: 'test'
+  ...
+# Subtest: card focus: base and upgraded effects execute with valid invariants
+ok 50 - card focus: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1355
+  type: 'test'
+  ...
+# Subtest: card firestorm: base and upgraded effects execute with valid invariants
+ok 51 - card firestorm: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1303
+  type: 'test'
+  ...
+# Subtest: card frost: base and upgraded effects execute with valid invariants
+ok 52 - card frost: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1432
+  type: 'test'
+  ...
+# Subtest: card mana: base and upgraded effects execute with valid invariants
+ok 53 - card mana: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1092
+  type: 'test'
+  ...
+# Subtest: card nova: base and upgraded effects execute with valid invariants
+ok 54 - card nova: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1316
+  type: 'test'
+  ...
+# Subtest: card inferno: base and upgraded effects execute with valid invariants
+ok 55 - card inferno: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1517
+  type: 'test'
+  ...
+# Subtest: card barrier: base and upgraded effects execute with valid invariants
+ok 56 - card barrier: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1176
+  type: 'test'
+  ...
+# Subtest: card catalyst: base and upgraded effects execute with valid invariants
+ok 57 - card catalyst: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1094
+  type: 'test'
+  ...
+# Subtest: card astral: base and upgraded effects execute with valid invariants
+ok 58 - card astral: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.0967
+  type: 'test'
+  ...
+# Subtest: card echo: base and upgraded effects execute with valid invariants
+ok 59 - card echo: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.141
+  type: 'test'
+  ...
+# Subtest: card pulse: base and upgraded effects execute with valid invariants
+ok 60 - card pulse: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.0957
+  type: 'test'
+  ...
+# Subtest: card comet: base and upgraded effects execute with valid invariants
+ok 61 - card comet: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.097
+  type: 'test'
+  ...
+# Subtest: card weave: base and upgraded effects execute with valid invariants
+ok 62 - card weave: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1081
+  type: 'test'
+  ...
+# Subtest: card stab: base and upgraded effects execute with valid invariants
+ok 63 - card stab: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1368
+  type: 'test'
+  ...
+# Subtest: card dodge: base and upgraded effects execute with valid invariants
+ok 64 - card dodge: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.0951
+  type: 'test'
+  ...
+# Subtest: card venom: base and upgraded effects execute with valid invariants
+ok 65 - card venom: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1688
+  type: 'test'
+  ...
+# Subtest: card flurry: base and upgraded effects execute with valid invariants
+ok 66 - card flurry: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1542
+  type: 'test'
+  ...
+# Subtest: card toxic: base and upgraded effects execute with valid invariants
+ok 67 - card toxic: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1378
+  type: 'test'
+  ...
+# Subtest: card backstab: base and upgraded effects execute with valid invariants
+ok 68 - card backstab: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1034
+  type: 'test'
+  ...
+# Subtest: card dash: base and upgraded effects execute with valid invariants
+ok 69 - card dash: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1254
+  type: 'test'
+  ...
+# Subtest: card ambush: base and upgraded effects execute with valid invariants
+ok 70 - card ambush: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1183
+  type: 'test'
+  ...
+# Subtest: card envenom: base and upgraded effects execute with valid invariants
+ok 71 - card envenom: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1112
+  type: 'test'
+  ...
+# Subtest: card accelerate: base and upgraded effects execute with valid invariants
+ok 72 - card accelerate: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.0975
+  type: 'test'
+  ...
+# Subtest: card assassinate: base and upgraded effects execute with valid invariants
+ok 73 - card assassinate: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.0929
+  type: 'test'
+  ...
+# Subtest: card wraith: base and upgraded effects execute with valid invariants
+ok 74 - card wraith: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.0948
+  type: 'test'
+  ...
+# Subtest: card plague: base and upgraded effects execute with valid invariants
+ok 75 - card plague: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.0894
+  type: 'test'
+  ...
+# Subtest: card spread: base and upgraded effects execute with valid invariants
+ok 76 - card spread: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1278
+  type: 'test'
+  ...
+# Subtest: card triple: base and upgraded effects execute with valid invariants
+ok 77 - card triple: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1198
+  type: 'test'
+  ...
+# Subtest: card nightfall: base and upgraded effects execute with valid invariants
+ok 78 - card nightfall: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.0893
+  type: 'test'
+  ...
+# Subtest: card insight: base and upgraded effects execute with valid invariants
+ok 79 - card insight: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.0901
+  type: 'test'
+  ...
+# Subtest: card bandage: base and upgraded effects execute with valid invariants
+ok 80 - card bandage: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.3383
+  type: 'test'
+  ...
+# Subtest: card heavy: base and upgraded effects execute with valid invariants
+ok 81 - card heavy: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1065
+  type: 'test'
+  ...
+# Subtest: card prism: base and upgraded effects execute with valid invariants
+ok 82 - card prism: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.0955
+  type: 'test'
+  ...
+# Subtest: card wall: base and upgraded effects execute with valid invariants
+ok 83 - card wall: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1802
+  type: 'test'
+  ...
+# Subtest: card resolve: base and upgraded effects execute with valid invariants
+ok 84 - card resolve: base and upgraded effects execute with valid invariants
+  ---
+  duration_ms: 0.1815
+  type: 'test'
+  ...
+# Subtest: full runs terminate, invariant and save roundtrip: knight story
+ok 85 - full runs terminate, invariant and save roundtrip: knight story
+  ---
+  duration_ms: 45.508
+  type: 'test'
+  ...
+# Subtest: full runs terminate, invariant and save roundtrip: mage story
+ok 86 - full runs terminate, invariant and save roundtrip: mage story
+  ---
+  duration_ms: 34.7836
+  type: 'test'
+  ...
+# Subtest: full runs terminate, invariant and save roundtrip: rogue story
+ok 87 - full runs terminate, invariant and save roundtrip: rogue story
+  ---
+  duration_ms: 31.9217
+  type: 'test'
+  ...
+# Subtest: full runs terminate, invariant and save roundtrip: knight normal
+ok 88 - full runs terminate, invariant and save roundtrip: knight normal
+  ---
+  duration_ms: 32.9567
+  type: 'test'
+  ...
+# Subtest: full runs terminate, invariant and save roundtrip: mage normal
+ok 89 - full runs terminate, invariant and save roundtrip: mage normal
+  ---
+  duration_ms: 21.2318
+  type: 'test'
+  ...
+# Subtest: full runs terminate, invariant and save roundtrip: rogue normal
+ok 90 - full runs terminate, invariant and save roundtrip: rogue normal
+  ---
+  duration_ms: 22.5556
+  type: 'test'
+  ...
+# Subtest: full runs terminate, invariant and save roundtrip: knight hard
+ok 91 - full runs terminate, invariant and save roundtrip: knight hard
+  ---
+  duration_ms: 15.3235
+  type: 'test'
+  ...
+# Subtest: full runs terminate, invariant and save roundtrip: mage hard
+ok 92 - full runs terminate, invariant and save roundtrip: mage hard
+  ---
+  duration_ms: 18.4546
+  type: 'test'
+  ...
+# Subtest: full runs terminate, invariant and save roundtrip: rogue hard
+ok 93 - full runs terminate, invariant and save roundtrip: rogue hard
+  ---
+  duration_ms: 13.3109
+  type: 'test'
+  ...
+# Subtest: content breadth and no unknown references
+ok 94 - content breadth and no unknown references
+  ---
+  duration_ms: 0.1715
+  type: 'test'
+  ...
+# Subtest: save rejects inherited IDs, enemy markup injection, broken route links and missing stats
+ok 95 - save rejects inherited IDs, enemy markup injection, broken route links and missing stats
+  ---
+  duration_ms: 1.216
+  type: 'test'
+  ...
+# Subtest: hard knight has reproducible legitimate winning routes, without edited resources
+ok 96 - hard knight has reproducible legitimate winning routes, without edited resources
+  ---
+  duration_ms: 23.3888
+  type: 'test'
+  ...
+# Subtest: seed length canonicalization and combat counters are validated
+ok 97 - seed length canonicalization and combat counters are validated
+  ---
+  duration_ms: 0.5404
+  type: 'test'
+  ...
+# Subtest: local server, packed app, MIME, CSP hash and traversal protection
+ok 98 - local server, packed app, MIME, CSP hash and traversal protection
+  ---
+  duration_ms: 153.3449
+  type: 'test'
+  ...
+# Subtest: every card has an individually authored non-icon scene
+ok 99 - every card has an individually authored non-icon scene
+  ---
+  duration_ms: 2.823
+  type: 'test'
+  ...
+# Subtest: preview cut: immutable, then exact one-card confirmation
+ok 100 - preview cut: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 1.6076
+  type: 'test'
+  ...
+# Subtest: preview guard: immutable, then exact one-card confirmation
+ok 101 - preview guard: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.2921
+  type: 'test'
+  ...
+# Subtest: preview bash: immutable, then exact one-card confirmation
+ok 102 - preview bash: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.259
+  type: 'test'
+  ...
+# Subtest: preview riposte: immutable, then exact one-card confirmation
+ok 103 - preview riposte: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.2975
+  type: 'test'
+  ...
+# Subtest: preview cleave: immutable, then exact one-card confirmation
+ok 104 - preview cleave: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.2834
+  type: 'test'
+  ...
+# Subtest: preview fortify: immutable, then exact one-card confirmation
+ok 105 - preview fortify: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.24
+  type: 'test'
+  ...
+# Subtest: preview rage: immutable, then exact one-card confirmation
+ok 106 - preview rage: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1782
+  type: 'test'
+  ...
+# Subtest: preview charge: immutable, then exact one-card confirmation
+ok 107 - preview charge: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.2091
+  type: 'test'
+  ...
+# Subtest: preview thorn: immutable, then exact one-card confirmation
+ok 108 - preview thorn: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.23
+  type: 'test'
+  ...
+# Subtest: preview crush: immutable, then exact one-card confirmation
+ok 109 - preview crush: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.8263
+  type: 'test'
+  ...
+# Subtest: preview rally: immutable, then exact one-card confirmation
+ok 110 - preview rally: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.3272
+  type: 'test'
+  ...
+# Subtest: preview bastion: immutable, then exact one-card confirmation
+ok 111 - preview bastion: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.2012
+  type: 'test'
+  ...
+# Subtest: preview blood: immutable, then exact one-card confirmation
+ok 112 - preview blood: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1338
+  type: 'test'
+  ...
+# Subtest: preview double: immutable, then exact one-card confirmation
+ok 113 - preview double: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.131
+  type: 'test'
+  ...
+# Subtest: preview execute: immutable, then exact one-card confirmation
+ok 114 - preview execute: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1147
+  type: 'test'
+  ...
+# Subtest: preview defiance: immutable, then exact one-card confirmation
+ok 115 - preview defiance: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1282
+  type: 'test'
+  ...
+# Subtest: preview spark: immutable, then exact one-card confirmation
+ok 116 - preview spark: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1274
+  type: 'test'
+  ...
+# Subtest: preview ward: immutable, then exact one-card confirmation
+ok 117 - preview ward: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1737
+  type: 'test'
+  ...
+# Subtest: preview ignite: immutable, then exact one-card confirmation
+ok 118 - preview ignite: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.123
+  type: 'test'
+  ...
+# Subtest: preview focus: immutable, then exact one-card confirmation
+ok 119 - preview focus: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1289
+  type: 'test'
+  ...
+# Subtest: preview firestorm: immutable, then exact one-card confirmation
+ok 120 - preview firestorm: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1176
+  type: 'test'
+  ...
+# Subtest: preview frost: immutable, then exact one-card confirmation
+ok 121 - preview frost: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.137
+  type: 'test'
+  ...
+# Subtest: preview mana: immutable, then exact one-card confirmation
+ok 122 - preview mana: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1626
+  type: 'test'
+  ...
+# Subtest: preview nova: immutable, then exact one-card confirmation
+ok 123 - preview nova: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1757
+  type: 'test'
+  ...
+# Subtest: preview inferno: immutable, then exact one-card confirmation
+ok 124 - preview inferno: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1828
+  type: 'test'
+  ...
+# Subtest: preview barrier: immutable, then exact one-card confirmation
+ok 125 - preview barrier: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1507
+  type: 'test'
+  ...
+# Subtest: preview catalyst: immutable, then exact one-card confirmation
+ok 126 - preview catalyst: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.4814
+  type: 'test'
+  ...
+# Subtest: preview astral: immutable, then exact one-card confirmation
+ok 127 - preview astral: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1602
+  type: 'test'
+  ...
+# Subtest: preview echo: immutable, then exact one-card confirmation
+ok 128 - preview echo: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1312
+  type: 'test'
+  ...
+# Subtest: preview pulse: immutable, then exact one-card confirmation
+ok 129 - preview pulse: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1205
+  type: 'test'
+  ...
+# Subtest: preview comet: immutable, then exact one-card confirmation
+ok 130 - preview comet: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1482
+  type: 'test'
+  ...
+# Subtest: preview weave: immutable, then exact one-card confirmation
+ok 131 - preview weave: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1464
+  type: 'test'
+  ...
+# Subtest: preview stab: immutable, then exact one-card confirmation
+ok 132 - preview stab: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1391
+  type: 'test'
+  ...
+# Subtest: preview dodge: immutable, then exact one-card confirmation
+ok 133 - preview dodge: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1284
+  type: 'test'
+  ...
+# Subtest: preview venom: immutable, then exact one-card confirmation
+ok 134 - preview venom: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.3304
+  type: 'test'
+  ...
+# Subtest: preview flurry: immutable, then exact one-card confirmation
+ok 135 - preview flurry: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1265
+  type: 'test'
+  ...
+# Subtest: preview toxic: immutable, then exact one-card confirmation
+ok 136 - preview toxic: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1075
+  type: 'test'
+  ...
+# Subtest: preview backstab: immutable, then exact one-card confirmation
+ok 137 - preview backstab: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1203
+  type: 'test'
+  ...
+# Subtest: preview dash: immutable, then exact one-card confirmation
+ok 138 - preview dash: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1042
+  type: 'test'
+  ...
+# Subtest: preview ambush: immutable, then exact one-card confirmation
+ok 139 - preview ambush: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1461
+  type: 'test'
+  ...
+# Subtest: preview envenom: immutable, then exact one-card confirmation
+ok 140 - preview envenom: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1323
+  type: 'test'
+  ...
+# Subtest: preview accelerate: immutable, then exact one-card confirmation
+ok 141 - preview accelerate: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1524
+  type: 'test'
+  ...
+# Subtest: preview assassinate: immutable, then exact one-card confirmation
+ok 142 - preview assassinate: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1137
+  type: 'test'
+  ...
+# Subtest: preview wraith: immutable, then exact one-card confirmation
+ok 143 - preview wraith: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1627
+  type: 'test'
+  ...
+# Subtest: preview plague: immutable, then exact one-card confirmation
+ok 144 - preview plague: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1165
+  type: 'test'
+  ...
+# Subtest: preview spread: immutable, then exact one-card confirmation
+ok 145 - preview spread: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.3658
+  type: 'test'
+  ...
+# Subtest: preview triple: immutable, then exact one-card confirmation
+ok 146 - preview triple: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.2274
+  type: 'test'
+  ...
+# Subtest: preview nightfall: immutable, then exact one-card confirmation
+ok 147 - preview nightfall: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.2754
+  type: 'test'
+  ...
+# Subtest: preview insight: immutable, then exact one-card confirmation
+ok 148 - preview insight: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.2344
+  type: 'test'
+  ...
+# Subtest: preview bandage: immutable, then exact one-card confirmation
+ok 149 - preview bandage: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.173
+  type: 'test'
+  ...
+# Subtest: preview heavy: immutable, then exact one-card confirmation
+ok 150 - preview heavy: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.224
+  type: 'test'
+  ...
+# Subtest: preview prism: immutable, then exact one-card confirmation
+ok 151 - preview prism: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.2091
+  type: 'test'
+  ...
+# Subtest: preview wall: immutable, then exact one-card confirmation
+ok 152 - preview wall: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.2002
+  type: 'test'
+  ...
+# Subtest: preview resolve: immutable, then exact one-card confirmation
+ok 153 - preview resolve: immutable, then exact one-card confirmation
+  ---
+  duration_ms: 0.1797
+  type: 'test'
+  ...
+# Subtest: preview rejects invalid, upgraded and cursed cards without mutation
+ok 154 - preview rejects invalid, upgraded and cursed cards without mutation
+  ---
+  duration_ms: 0.5961
+  type: 'test'
+  ...
+# Subtest: feedback queue preserves every multi-hit event in chronological order
+ok 155 - feedback queue preserves every multi-hit event in chronological order
+  ---
+  duration_ms: 0.3877
+  type: 'test'
+  ...
+# Subtest: encyclopedia contains all cards with independent combinable filters
+ok 156 - encyclopedia contains all cards with independent combinable filters
+  ---
+  duration_ms: 0.6276
+  type: 'test'
+  ...
+# Subtest: card motion plan: opening draw, played/discard, redraw recycled UID and exhaust
+ok 157 - card motion plan: opening draw, played/discard, redraw recycled UID and exhaust
+  ---
+  duration_ms: 1.5058
+  type: 'test'
+  ...
+# Subtest: draw-card may reshuffle itself back into hand without losing presentation identity
+ok 158 - draw-card may reshuffle itself back into hand without losing presentation identity
+  ---
+  duration_ms: 0.3309
+  type: 'test'
+  ...
+1..158
+# tests 158
+# suites 0
+# pass 158
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 427.4328

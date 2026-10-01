@@ -1,0 +1,9 @@
+node_modules/
+build/
+releases/
+verification/*.jpg
+*.log
+.env
+.env.*
+*.pem
+*.key

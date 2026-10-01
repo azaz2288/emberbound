@@ -1,0 +1,1552 @@
+{
+  "verifiedAt": "2026-10-01T20:11:03.411Z",
+  "isolatedOrigin": "http://127.0.0.1:8788/",
+  "run": {
+    "hero": "knight",
+    "seed": "UI-CHECK",
+    "difficulty": "story",
+    "outcome": "victory",
+    "act": 3,
+    "battles": 11,
+    "cardsPlayed": 121,
+    "relics": 7,
+    "hp": 53,
+    "maxHp": 94
+  },
+  "recordedClicks": 251,
+  "actions": [
+    {
+      "action": "play",
+      "id": "c9",
+      "index": null,
+      "text": "2破阵攻击造成 9 伤害施加 2 易伤普通 · 余烬骑士"
+    },
+    {
+      "action": "target",
+      "id": "e1",
+      "index": null,
+      "text": "下一步意图3 × 2裂牙狼3 / 21"
+    },
+    {
+      "action": "play",
+      "id": "c3",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c3",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c4",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c1",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c9",
+      "index": null,
+      "text": "2破阵攻击造成 9 伤害施加 2 易伤普通 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c2",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "rewardCard",
+      "id": "insight",
+      "index": null,
+      "text": "1远见技巧抽 3 张牌普通 · 旅途"
+    },
+    {
+      "action": "leaveReward",
+      "id": null,
+      "index": null,
+      "text": "继续前进"
+    },
+    {
+      "action": "node",
+      "id": "a0r1c0",
+      "index": null,
+      "text": "2 层 · 奇遇 — 可前往奇遇"
+    },
+    {
+      "action": "eventChoice",
+      "id": null,
+      "index": "1",
+      "text": "投下一枚金币花费 35 金币，获得随机遗物"
+    },
+    {
+      "action": "leaveEvent",
+      "id": null,
+      "index": null,
+      "text": "继续前进"
+    },
+    {
+      "action": "node",
+      "id": "a0r2c0",
+      "index": null,
+      "text": "3 层 · 奇遇 — 可前往奇遇"
+    },
+    {
+      "action": "eventChoice",
+      "id": null,
+      "index": "2",
+      "text": "并肩歇息恢复 10 生命"
+    },
+    {
+      "action": "leaveEvent",
+      "id": null,
+      "index": null,
+      "text": "继续前进"
+    },
+    {
+      "action": "node",
+      "id": "a0r3c0",
+      "index": null,
+      "text": "4 层 · 商店 — 可前往商店"
+    },
+    {
+      "action": "buy",
+      "id": null,
+      "index": "0",
+      "text": "54"
+    },
+    {
+      "action": "leaveShop",
+      "id": null,
+      "index": null,
+      "text": "离开商店"
+    },
+    {
+      "action": "node",
+      "id": "a0r4c0",
+      "index": null,
+      "text": "5 层 · 遭遇 — 可前往遭遇"
+    },
+    {
+      "action": "play",
+      "id": "c4",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c3",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c7",
+      "index": null,
+      "text": "1铁壁技巧获得 5 格挡基础 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c2",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c1",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "rewardCard",
+      "id": "thorn",
+      "index": null,
+      "text": "1荆棘铠能力获得 3 反伤本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "leaveReward",
+      "id": null,
+      "index": null,
+      "text": "继续前进"
+    },
+    {
+      "action": "node",
+      "id": "a0r5c0",
+      "index": null,
+      "text": "6 层 · 篝火 — 可前往篝火"
+    },
+    {
+      "action": "rest",
+      "id": "upgrade",
+      "index": null,
+      "text": "淬炼 永久升级一张卡牌，让它更强"
+    },
+    {
+      "action": "chooseCard",
+      "id": "c9",
+      "index": null,
+      "text": "2破阵攻击造成 9 伤害施加 2 易伤普通 · 余烬骑士"
+    },
+    {
+      "action": "node",
+      "id": "a0r6c0",
+      "index": null,
+      "text": "7 层 · 篝火 — 可前往篝火"
+    },
+    {
+      "action": "rest",
+      "id": "upgrade",
+      "index": null,
+      "text": "淬炼 永久升级一张卡牌，让它更强"
+    },
+    {
+      "action": "chooseCard",
+      "id": "c10",
+      "index": null,
+      "text": "1盾锋攻击造成 5 + 当前格挡的伤害普通 · 余烬骑士"
+    },
+    {
+      "action": "node",
+      "id": "a0r7c1",
+      "index": null,
+      "text": "8 层 · 首领 — 可前往首领"
+    },
+    {
+      "action": "play",
+      "id": "c13",
+      "index": null,
+      "text": "1荆棘铠能力获得 3 反伤本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c10",
+      "index": null,
+      "text": "1盾锋+攻击造成 8 + 当前格挡的伤害普通 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c4",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c9",
+      "index": null,
+      "text": "2破阵+攻击造成 12 伤害施加 3 易伤普通 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c2",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c10",
+      "index": null,
+      "text": "1盾锋+攻击造成 8 + 当前格挡的伤害普通 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c3",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c5",
+      "index": null,
+      "text": "1铁壁技巧获得 5 格挡基础 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "potion",
+      "id": null,
+      "index": "0",
+      "text": ""
+    },
+    {
+      "action": "play",
+      "id": "c9",
+      "index": null,
+      "text": "2破阵+攻击造成 12 伤害施加 3 易伤普通 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c4",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c9",
+      "index": null,
+      "text": "2破阵+攻击造成 12 伤害施加 3 易伤普通 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c1",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c10",
+      "index": null,
+      "text": "1盾锋+攻击造成 8 + 当前格挡的伤害普通 · 余烬骑士"
+    },
+    {
+      "action": "rewardCard",
+      "id": "thorn",
+      "index": null,
+      "text": "1荆棘铠能力获得 3 反伤本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "rewardRelic",
+      "id": "whetstone",
+      "index": null,
+      "text": "磨刃石战斗开始获得 2 力量。"
+    },
+    {
+      "action": "leaveReward",
+      "id": null,
+      "index": null,
+      "text": "进入下一章"
+    },
+    {
+      "action": "node",
+      "id": "a1r0c0",
+      "index": null,
+      "text": "1 层 · 遭遇 — 可前往遭遇"
+    },
+    {
+      "action": "play",
+      "id": "c9",
+      "index": null,
+      "text": "2破阵+攻击造成 12 伤害施加 3 易伤普通 · 余烬骑士"
+    },
+    {
+      "action": "target",
+      "id": "e1",
+      "index": null,
+      "text": "下一步意图强化枯枝祭徒30 / 30"
+    },
+    {
+      "action": "play",
+      "id": "c2",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "target",
+      "id": "e1",
+      "index": null,
+      "text": "下一步意图强化枯枝祭徒16 / 30易伤 3"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c10",
+      "index": null,
+      "text": "1盾锋+攻击造成 8 + 当前格挡的伤害普通 · 余烬骑士"
+    },
+    {
+      "action": "target",
+      "id": "e1",
+      "index": null,
+      "text": "下一步意图10枯枝祭徒4 / 30力量 2易伤 2"
+    },
+    {
+      "action": "play",
+      "id": "c3",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c1",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c14",
+      "index": null,
+      "text": "1荆棘铠能力获得 3 反伤本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c13",
+      "index": null,
+      "text": "1荆棘铠能力获得 3 反伤本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c4",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c10",
+      "index": null,
+      "text": "1盾锋+攻击造成 8 + 当前格挡的伤害普通 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c1",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "rewardCard",
+      "id": "heavy",
+      "index": null,
+      "text": "2陨铁攻击造成 16 伤害普通 · 旅途"
+    },
+    {
+      "action": "leaveReward",
+      "id": null,
+      "index": null,
+      "text": "继续前进"
+    },
+    {
+      "action": "node",
+      "id": "a1r1c0",
+      "index": null,
+      "text": "2 层 · 奇遇 — 可前往奇遇"
+    },
+    {
+      "action": "eventChoice",
+      "id": null,
+      "index": "0",
+      "text": "献上鲜血失去 10 生命，获得随机遗物"
+    },
+    {
+      "action": "leaveEvent",
+      "id": null,
+      "index": null,
+      "text": "继续前进"
+    },
+    {
+      "action": "node",
+      "id": "a1r2c0",
+      "index": null,
+      "text": "3 层 · 遭遇 — 可前往遭遇"
+    },
+    {
+      "action": "play",
+      "id": "c13",
+      "index": null,
+      "text": "1荆棘铠能力获得 3 反伤本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c4",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "target",
+      "id": "e1",
+      "index": null,
+      "text": "下一步意图强化枯枝祭徒30 / 30"
+    },
+    {
+      "action": "play",
+      "id": "c11",
+      "index": null,
+      "text": "1远见技巧抽 3 张牌普通 · 旅途"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c14",
+      "index": null,
+      "text": "1荆棘铠能力获得 3 反伤本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c9",
+      "index": null,
+      "text": "2破阵+攻击造成 12 伤害施加 3 易伤普通 · 余烬骑士"
+    },
+    {
+      "action": "target",
+      "id": "e1",
+      "index": null,
+      "text": "下一步意图10枯枝祭徒22 / 30力量 2"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c3",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "target",
+      "id": "e1",
+      "index": null,
+      "text": "下一步意图8 × 2枯枝祭徒2 / 30力量 2易伤 2"
+    },
+    {
+      "action": "play",
+      "id": "c4",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c7",
+      "index": null,
+      "text": "1铁壁技巧获得 5 格挡基础 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c9",
+      "index": null,
+      "text": "2破阵+攻击造成 12 伤害施加 3 易伤普通 · 余烬骑士"
+    },
+    {
+      "action": "rewardCard",
+      "id": "bastion",
+      "index": null,
+      "text": "1坚守能力每回合获得 3 格挡本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "rewardPotion",
+      "id": "heal",
+      "index": null,
+      "text": "拿取生命药剂"
+    },
+    {
+      "action": "leaveReward",
+      "id": null,
+      "index": null,
+      "text": "继续前进"
+    },
+    {
+      "action": "node",
+      "id": "a1r3c0",
+      "index": null,
+      "text": "4 层 · 商店 — 可前往商店"
+    },
+    {
+      "action": "buy",
+      "id": null,
+      "index": "0",
+      "text": "108 金"
+    },
+    {
+      "action": "buy",
+      "id": null,
+      "index": "0",
+      "text": "40"
+    },
+    {
+      "action": "buy",
+      "id": null,
+      "index": "1",
+      "text": "40"
+    },
+    {
+      "action": "leaveShop",
+      "id": null,
+      "index": null,
+      "text": "离开商店"
+    },
+    {
+      "action": "node",
+      "id": "a1r4c1",
+      "index": null,
+      "text": "5 层 · 商店 — 可前往商店"
+    },
+    {
+      "action": "leaveShop",
+      "id": null,
+      "index": null,
+      "text": "离开商店"
+    },
+    {
+      "action": "node",
+      "id": "a1r5c0",
+      "index": null,
+      "text": "6 层 · 商店 — 可前往商店"
+    },
+    {
+      "action": "leaveShop",
+      "id": null,
+      "index": null,
+      "text": "离开商店"
+    },
+    {
+      "action": "node",
+      "id": "a1r6c0",
+      "index": null,
+      "text": "7 层 · 篝火 — 可前往篝火"
+    },
+    {
+      "action": "rest",
+      "id": "heal",
+      "index": null,
+      "text": "休息 恢复 25 生命（当前 33/82）"
+    },
+    {
+      "action": "node",
+      "id": "a1r7c1",
+      "index": null,
+      "text": "8 层 · 首领 — 可前往首领"
+    },
+    {
+      "action": "potion",
+      "id": null,
+      "index": "0",
+      "text": ""
+    },
+    {
+      "action": "play",
+      "id": "c16",
+      "index": null,
+      "text": "1坚守能力每回合获得 3 格挡本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c13",
+      "index": null,
+      "text": "1荆棘铠能力获得 3 反伤本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c17",
+      "index": null,
+      "text": "1横扫攻击对所有敌人造成 7 伤害普通 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c15",
+      "index": null,
+      "text": "2陨铁攻击造成 16 伤害普通 · 旅途"
+    },
+    {
+      "action": "play",
+      "id": "c4",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c10",
+      "index": null,
+      "text": "1盾锋+攻击造成 8 + 当前格挡的伤害普通 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c8",
+      "index": null,
+      "text": "1铁壁技巧获得 5 格挡基础 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c5",
+      "index": null,
+      "text": "1铁壁技巧获得 5 格挡基础 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c14",
+      "index": null,
+      "text": "1荆棘铠能力获得 3 反伤本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c10",
+      "index": null,
+      "text": "1盾锋+攻击造成 8 + 当前格挡的伤害普通 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c17",
+      "index": null,
+      "text": "1横扫攻击对所有敌人造成 7 伤害普通 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c15",
+      "index": null,
+      "text": "2陨铁攻击造成 16 伤害普通 · 旅途"
+    },
+    {
+      "action": "play",
+      "id": "c2",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c9",
+      "index": null,
+      "text": "2破阵+攻击造成 12 伤害施加 3 易伤普通 · 余烬骑士"
+    },
+    {
+      "action": "rewardCard",
+      "id": "crush",
+      "index": null,
+      "text": "2碎甲攻击造成 19 伤害施加 1 虚弱稀有 · 余烬骑士"
+    },
+    {
+      "action": "rewardRelic",
+      "id": "heart",
+      "index": null,
+      "text": "琥珀心立即提高 12 最大生命并恢复 12 生命。"
+    },
+    {
+      "action": "rewardPotion",
+      "id": "heal",
+      "index": null,
+      "text": "拿取生命药剂"
+    },
+    {
+      "action": "leaveReward",
+      "id": null,
+      "index": null,
+      "text": "进入下一章"
+    },
+    {
+      "action": "node",
+      "id": "a2r0c0",
+      "index": null,
+      "text": "1 层 · 遭遇 — 可前往遭遇"
+    },
+    {
+      "action": "play",
+      "id": "c14",
+      "index": null,
+      "text": "1荆棘铠能力获得 3 反伤本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c10",
+      "index": null,
+      "text": "1盾锋+攻击造成 8 + 当前格挡的伤害普通 · 余烬骑士"
+    },
+    {
+      "action": "target",
+      "id": "e1",
+      "index": null,
+      "text": "下一步意图9↓漂浮之眼40 / 40"
+    },
+    {
+      "action": "play",
+      "id": "c2",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "target",
+      "id": "e1",
+      "index": null,
+      "text": "下一步意图9↓漂浮之眼27 / 40"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "potion",
+      "id": null,
+      "index": "0",
+      "text": ""
+    },
+    {
+      "action": "play",
+      "id": "c16",
+      "index": null,
+      "text": "1坚守能力每回合获得 3 格挡本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c17",
+      "index": null,
+      "text": "1横扫攻击对所有敌人造成 7 伤害普通 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c3",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "target",
+      "id": "e1",
+      "index": null,
+      "text": "下一步意图6 × 2漂浮之眼10 / 40"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c4",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c1",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c11",
+      "index": null,
+      "text": "1远见技巧抽 3 张牌普通 · 旅途"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c13",
+      "index": null,
+      "text": "1荆棘铠能力获得 3 反伤本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c19",
+      "index": null,
+      "text": "2碎甲攻击造成 19 伤害施加 1 虚弱稀有 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c10",
+      "index": null,
+      "text": "1盾锋+攻击造成 8 + 当前格挡的伤害普通 · 余烬骑士"
+    },
+    {
+      "action": "rewardCard",
+      "id": "execute",
+      "index": null,
+      "text": "2处决攻击造成 14 伤害；敌人生命低于一半时翻倍稀有 · 余烬骑士"
+    },
+    {
+      "action": "leaveReward",
+      "id": null,
+      "index": null,
+      "text": "继续前进"
+    },
+    {
+      "action": "node",
+      "id": "a2r1c1",
+      "index": null,
+      "text": "2 层 · 篝火 — 可前往篝火"
+    },
+    {
+      "action": "rest",
+      "id": "heal",
+      "index": null,
+      "text": "休息 恢复 29 生命（当前 57/94）"
+    },
+    {
+      "action": "node",
+      "id": "a2r2c1",
+      "index": null,
+      "text": "3 层 · 遭遇 — 可前往遭遇"
+    },
+    {
+      "action": "play",
+      "id": "c16",
+      "index": null,
+      "text": "1坚守能力每回合获得 3 格挡本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c13",
+      "index": null,
+      "text": "1荆棘铠能力获得 3 反伤本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c10",
+      "index": null,
+      "text": "1盾锋+攻击造成 8 + 当前格挡的伤害普通 · 余烬骑士"
+    },
+    {
+      "action": "target",
+      "id": "e1",
+      "index": null,
+      "text": "下一步意图9↓漂浮之眼40 / 40"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c19",
+      "index": null,
+      "text": "2碎甲攻击造成 19 伤害施加 1 虚弱稀有 · 余烬骑士"
+    },
+    {
+      "action": "target",
+      "id": "e1",
+      "index": null,
+      "text": "下一步意图6 × 2漂浮之眼24 / 40"
+    },
+    {
+      "action": "play",
+      "id": "c8",
+      "index": null,
+      "text": "1铁壁技巧获得 5 格挡基础 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c9",
+      "index": null,
+      "text": "2破阵+攻击造成 12 伤害施加 3 易伤普通 · 余烬骑士"
+    },
+    {
+      "action": "target",
+      "id": "e1",
+      "index": null,
+      "text": "下一步意图强化漂浮之眼3 / 40"
+    },
+    {
+      "action": "play",
+      "id": "c4",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c14",
+      "index": null,
+      "text": "1荆棘铠能力获得 3 反伤本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c17",
+      "index": null,
+      "text": "1横扫攻击对所有敌人造成 7 伤害普通 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c5",
+      "index": null,
+      "text": "1铁壁技巧获得 5 格挡基础 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c10",
+      "index": null,
+      "text": "1盾锋+攻击造成 8 + 当前格挡的伤害普通 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c17",
+      "index": null,
+      "text": "1横扫攻击对所有敌人造成 7 伤害普通 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c3",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "rewardCard",
+      "id": "bastion",
+      "index": null,
+      "text": "1坚守能力每回合获得 3 格挡本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "rewardPotion",
+      "id": "energy",
+      "index": null,
+      "text": "拿取灵泉药剂"
+    },
+    {
+      "action": "leaveReward",
+      "id": null,
+      "index": null,
+      "text": "继续前进"
+    },
+    {
+      "action": "node",
+      "id": "a2r3c2",
+      "index": null,
+      "text": "4 层 · 篝火 — 可前往篝火"
+    },
+    {
+      "action": "rest",
+      "id": "heal",
+      "index": null,
+      "text": "休息 恢复 29 生命（当前 56/94）"
+    },
+    {
+      "action": "node",
+      "id": "a2r4c2",
+      "index": null,
+      "text": "5 层 · 遭遇 — 可前往遭遇"
+    },
+    {
+      "action": "play",
+      "id": "c14",
+      "index": null,
+      "text": "1荆棘铠能力获得 3 反伤本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c21",
+      "index": null,
+      "text": "1坚守能力每回合获得 3 格挡本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c3",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c16",
+      "index": null,
+      "text": "1坚守能力每回合获得 3 格挡本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c13",
+      "index": null,
+      "text": "1荆棘铠能力获得 3 反伤本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c6",
+      "index": null,
+      "text": "1铁壁技巧获得 5 格挡基础 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c4",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c7",
+      "index": null,
+      "text": "1铁壁技巧获得 5 格挡基础 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c5",
+      "index": null,
+      "text": "1铁壁技巧获得 5 格挡基础 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c10",
+      "index": null,
+      "text": "1盾锋+攻击造成 8 + 当前格挡的伤害普通 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c17",
+      "index": null,
+      "text": "1横扫攻击对所有敌人造成 7 伤害普通 · 余烬骑士"
+    },
+    {
+      "action": "rewardCard",
+      "id": "crush",
+      "index": null,
+      "text": "2碎甲攻击造成 19 伤害施加 1 虚弱稀有 · 余烬骑士"
+    },
+    {
+      "action": "rewardPotion",
+      "id": "energy",
+      "index": null,
+      "text": "拿取灵泉药剂"
+    },
+    {
+      "action": "leaveReward",
+      "id": null,
+      "index": null,
+      "text": "继续前进"
+    },
+    {
+      "action": "node",
+      "id": "a2r5c1",
+      "index": null,
+      "text": "6 层 · 遭遇 — 可前往遭遇"
+    },
+    {
+      "action": "play",
+      "id": "c16",
+      "index": null,
+      "text": "1坚守能力每回合获得 3 格挡本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c14",
+      "index": null,
+      "text": "1荆棘铠能力获得 3 反伤本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c13",
+      "index": null,
+      "text": "1荆棘铠能力获得 3 反伤本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c9",
+      "index": null,
+      "text": "2破阵+攻击造成 12 伤害施加 3 易伤普通 · 余烬骑士"
+    },
+    {
+      "action": "target",
+      "id": "e1",
+      "index": null,
+      "text": "下一步意图4 × 2裂牙狼20 / 26"
+    },
+    {
+      "action": "play",
+      "id": "c2",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "target",
+      "id": "e1",
+      "index": null,
+      "text": "下一步意图4 × 2裂牙狼6 / 26易伤 3"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c21",
+      "index": null,
+      "text": "1坚守能力每回合获得 3 格挡本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c22",
+      "index": null,
+      "text": "2碎甲攻击造成 19 伤害施加 1 虚弱稀有 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c15",
+      "index": null,
+      "text": "2陨铁攻击造成 16 伤害普通 · 旅途"
+    },
+    {
+      "action": "rewardCard",
+      "id": "rage",
+      "index": null,
+      "text": "1战意能力获得 2 力量本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "leaveReward",
+      "id": null,
+      "index": null,
+      "text": "继续前进"
+    },
+    {
+      "action": "node",
+      "id": "a2r6c0",
+      "index": null,
+      "text": "7 层 · 篝火 — 可前往篝火"
+    },
+    {
+      "action": "rest",
+      "id": "heal",
+      "index": null,
+      "text": "休息 恢复 29 生命（当前 64/94）"
+    },
+    {
+      "action": "node",
+      "id": "a2r7c1",
+      "index": null,
+      "text": "8 层 · 首领 — 可前往首领"
+    },
+    {
+      "action": "play",
+      "id": "c19",
+      "index": null,
+      "text": "2碎甲攻击造成 19 伤害施加 1 虚弱稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c10",
+      "index": null,
+      "text": "1盾锋+攻击造成 8 + 当前格挡的伤害普通 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c23",
+      "index": null,
+      "text": "1战意能力获得 2 力量本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c15",
+      "index": null,
+      "text": "2陨铁攻击造成 16 伤害普通 · 旅途"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c16",
+      "index": null,
+      "text": "1坚守能力每回合获得 3 格挡本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c17",
+      "index": null,
+      "text": "1横扫攻击对所有敌人造成 7 伤害普通 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c2",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c14",
+      "index": null,
+      "text": "1荆棘铠能力获得 3 反伤本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c22",
+      "index": null,
+      "text": "2碎甲攻击造成 19 伤害施加 1 虚弱稀有 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c21",
+      "index": null,
+      "text": "1坚守能力每回合获得 3 格挡本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c13",
+      "index": null,
+      "text": "1荆棘铠能力获得 3 反伤本场持续生效稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c3",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c10",
+      "index": null,
+      "text": "1盾锋+攻击造成 8 + 当前格挡的伤害普通 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c22",
+      "index": null,
+      "text": "2碎甲攻击造成 19 伤害施加 1 虚弱稀有 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "play",
+      "id": "c19",
+      "index": null,
+      "text": "2碎甲攻击造成 19 伤害施加 1 虚弱稀有 · 余烬骑士"
+    },
+    {
+      "action": "play",
+      "id": "c2",
+      "index": null,
+      "text": "1断刃攻击造成 6 伤害基础 · 余烬骑士"
+    },
+    {
+      "action": "endTurn",
+      "id": null,
+      "index": null,
+      "text": "结束回合 [空格]"
+    },
+    {
+      "action": "rewardCard",
+      "id": "execute",
+      "index": null,
+      "text": "2处决攻击造成 14 伤害；敌人生命低于一半时翻倍稀有 · 余烬骑士"
+    },
+    {
+      "action": "rewardRelic",
+      "id": "needle",
+      "index": null,
+      "text": "赤铜针战斗开始获得 3 反伤。"
+    },
+    {
+      "action": "rewardPotion",
+      "id": "fire",
+      "index": null,
+      "text": "拿取烈焰药剂"
+    },
+    {
+      "action": "leaveReward",
+      "id": null,
+      "index": null,
+      "text": "带回黎明"
+    }
+  ],
+  "packagedChecks": {
+    "origin": "http://127.0.0.1:8789/build/Emberbound.html",
+    "newGame": true,
+    "continueAfterReload": true,
+    "deckKeyboard": true,
+    "jsonExportVisible": true,
+    "invalidJsonRejected": true,
+    "jsonPasteImport": true,
+    "desktop": {
+      "width": 1280,
+      "height": 720,
+      "documentScrollHeight": 720,
+      "brokenImages": 0,
+      "consoleErrors": 0
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "noHorizontalDocumentOverflow": true,
+      "scrollableHand": true
+    }
+  },
+  "limitations": [
+    "No human enjoyment study.",
+    "Literal file:// UI testing blocked by browser tool policy.",
+    "Blob download not observed; visible JSON backup and paste-import verified."
+  ]
+}
