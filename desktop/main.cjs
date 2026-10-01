@@ -8,7 +8,9 @@ const root=path.resolve(__dirname,'..');let win;
 if(!app.requestSingleInstanceLock()){app.quit();}else{
  app.on('second-instance',()=>{if(win){if(win.isMinimized())win.restore();win.show();win.focus();}});
  app.whenReady().then(async()=>{
-  const html=await fs.readFile(path.join(root,'build','Emberbound.html'),'utf8'),script=html.match(/<script>([\s\S]*?)<\/script>/)[1];
+  // HTML parsers normalize CRLF before CSP hash verification. Serve exactly that
+  // canonical form, including on Windows source checkouts with autocrlf enabled.
+  const html=(await fs.readFile(path.join(root,'build','Emberbound.html'),'utf8')).replace(/\r\n?/g,'\n'),script=html.match(/<script>([\s\S]*?)<\/script>/)[1];
   const hash=crypto.createHash('sha256').update(script).digest('base64');
   protocol.handle('emberbound',req=>{
    const url=new URL(req.url);if(req.method!=='GET'||url.host!=='game'||!['/','/index.html'].includes(url.pathname))return new Response('Not found',{status:404});

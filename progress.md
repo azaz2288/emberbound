@@ -4,6 +4,8 @@
 - User explicitly authorized uploading finished game; prior preference is public for showcase.
 - Scoped GitHub authentication verified as azaz2288; emberbound name available. Prepare source-only Git history and playable assets as Release attachments, not large Git files.
 - Added Ubuntu rule verification and Windows desktop tests/build CI, screenshot README and release download link. Credential stays in process memory and is not stored or logged.
+- Published public repository and v1.1.0 assets; remote main fbbffd3d2e95103dbefe81ae1e2f5ece0cb63867 verified. Both release asset SHA256 digests match local files exactly.
+- First CI: Ubuntu all tests passed; Windows rules passed, desktop initial title missing. Windows checkout CRLF changes inline CSP hash input, while HTML parser normalizes line endings. Canonicalize served HTML to LF, enforce source LF via .gitattributes; shipped local-LF binary unaffected. Re-verify desktop and remote workflow after fix.
 
 ## v1.1 corrections
 - Read plans and inspected current artwork/audio/upgrade flow. Implementation not yet verified. User session at 8787 remains untouched.
