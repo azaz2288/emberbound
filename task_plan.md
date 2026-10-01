@@ -34,7 +34,7 @@ All compact-v1 acceptance gates verified within documented limitations. Desktop 
 
 ## v1.1 user-requested correction (2026-10-02)
 Publishing authorization (2026-10-02): user now requests GitHub upload; previous no-publish restriction was for pre-authorization development only. Create public azaz2288/emberbound, push scoped source/tests/docs, upload playable Windows ZIP and HTML as v1.1.0 release, verify remote SHA/assets/CI. Do not put node_modules/embedded runtime/archive into Git history; no unrelated repository changes.
-Publishing status: repository/source/assets complete, hashes match; fixing CI Windows CRLF/CSP issue before final handoff. Ubuntu tests already passed.
+Publishing status: public repository/source/assets complete, remote SHA and asset digests match. Windows CRLF/CSP issue fixed; follow-up cloud Ubuntu rules, Windows rules, 42 desktop checks and Windows packaging succeeded (run 36942094227); final artifact-upload status being verified. Publication evidence-only updates do not change tested game code.
 0. Complete card encyclopedia, searchable/filterable all 56 cards and upgrades; genuine draw/discard/exhaust/reshuffle pile motion — complete.
 1. Real Windows desktop distribution with embedded runtime, secure offline window, no browser/Node installation — complete (actual packaged EXE self-test passed).
 2. Clearly visible combat VFX, action locking, layered sound effects and actual music, test-sound control — complete (signal output verified; no human-listening claim).
